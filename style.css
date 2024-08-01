@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     padding: 0;
@@ -8,6 +12,20 @@ header, .greeting {
     background-color: #1F2937;
     padding: 0;
     margin: 0;
+}
+
+header  .container .links {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+header  .container .links a {
+    transition: ease-in-out 0.5s;
+}
+
+header  .container .links a:hover {
+    color: #AA0100;
 }
 
 header .container, .greeting .container {
